@@ -14,7 +14,7 @@ spring:
 eureka:
   client: 
     service-url:
-       defaultZone: http://springCloudEureka7001.com:7001/eureka/
+       defaultZone: http://springCloudEureka7001.com:7001/eureka/,http://springCloudEureka7002.com:7002/eureka/,http://springCloudEureka7003.com:7003/eureka/
       
      
 ---
@@ -28,4 +28,4 @@ spring:
 eureka:
   client: 
     service-url:
-       defaultZone: http://springCloudEureka7001.com:7001/eureka/test
+       defaultZone: http://springCloudEureka7001.com:7001/eureka/test,http://springCloudEureka7002.com:7002/eureka/test,http://springCloudEureka7003.com:7003/eureka/test

@@ -15,7 +15,7 @@ spring:
       host: 192.168.0.51
       port: 5672
       username: admin
-      password: linjia
+      password: hzy
 eureka:
   client: 
     service-url:
@@ -34,7 +34,7 @@ spring:
       host: 192.168.0.51
       port: 5672
       username: admin
-      password: linjia
+      password: hzy
        
 eureka:
   client: 
